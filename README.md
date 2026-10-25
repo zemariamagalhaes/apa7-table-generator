@@ -29,7 +29,28 @@ Everything runs in your browser. No server, no account, no tracking, no data lea
 4. Click **Generate APA table**.
 5. Click **Copy for Word** or **Download .docx**.
 
-### Example input
+### Example files
+
+Two ready-made files in [`examples/`](examples/) show everything, including the table number, title and note:
+
+- [`examples/example.csv`](examples/example.csv): comma-separated, with quoted cells (descriptive statistics and group comparisons).
+- [`examples/example.txt`](examples/example.txt): tab-separated, as copied from Excel or SPSS (regression results with confidence intervals).
+
+Click **Open CSV/TSV file...** and pick one, then click **Generate APA table**.
+
+### Title and note inside the data (optional)
+
+Put these lines at the top of a file, or at the top of pasted text, and the tool moves them into the form fields for you:
+
+```
+# Table: 1
+# Title: Descriptive Statistics for Study Variables
+# Note: Note. N = 120. M = mean; SD = standard deviation.
+Group,N,M,SD
+Control,42,25.4,4.1
+```
+
+### Minimal example input
 
 ```
 Group	N	M	SD

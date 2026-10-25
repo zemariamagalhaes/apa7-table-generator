@@ -1,0 +1,9 @@
+# Table: 1
+# Title: Descriptive Statistics and Group Comparisons for Study Variables
+# Note: Note. N = 120 (n = 60 per group). M = mean; SD = standard deviation.
+Variable,Control M,Control SD,Treatment M,Treatment SD,t,p
+Age (years),24.8,3.9,25.1,4.2,-0.41,.682
+"Anxiety, pre-test",18.4,5.1,18.9,4.8,-0.55,.583
+"Anxiety, post-test",17.9,5.3,12.6,4.9,5.74,<.001
+Sleep quality,5.2,1.8,6.7,1.6,-4.78,<.001
+Study hours per week,11.3,4.4,12.0,4.1,-0.89,.375
